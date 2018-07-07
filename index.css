@@ -1,13 +1,35 @@
 body {
+  width: 95%;
+  margin: 0 auto;
   font-family: Arial ;
-  background-color:	#231F20;
+  background-color:	white;
 }
-
 h1 {
-  padding-left: 16px;
-  height: 35px;
-  width: 300px;
+  font-family: Impact;
+  position: fixed;
+  margin: 20px;
+  height: auto;
+  width: auto;
+
   font-family: Courier;
-  background-color: white;
+  background-color: grey;
   color: black;
+}
+ul {
+  position: relative;
+  font-size: 27px;
+  float: right;
+}
+li {
+  display: inline;
+  padding: 0.5em;
+}
+.colonna1, .colonna2, .colonna3 {
+
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+  }
+.colonna3 {
+  margin-right: 10%;
 }
