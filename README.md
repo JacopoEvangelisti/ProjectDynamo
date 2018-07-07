@@ -1,3 +1,2 @@
 # ProjectDynamo 
-## Riccardo gay 
-#### Riccardo gay 
+### Il progetto super segreto. 
