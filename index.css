@@ -1,28 +1,27 @@
 body {
-  width: 99%;
+  width: 100%;
   margin: 0 auto;
   font-family: Arial ;
   background-color:	white;
 }
 .titolo {
-  font-family: 'Courier New', Courier, monospace;
-  position: fixed;
+  position: relative;
   margin: 1px;
   height: auto;
   width: auto;
-
-  font-family: Courier;
-  font-size: 27px;
+  margin-left: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: grey;
   color: black;
+  float: left;
 }
 .lista {
   position: relative;
   font-size: 27px;
+  margin-right: 50px;
   float: right;
 }
 header {
-
   height: auto;
   width: auto;
   background-color: grey;
