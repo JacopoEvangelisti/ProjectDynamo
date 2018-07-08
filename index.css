@@ -1,24 +1,32 @@
 body {
-  width: 95%;
+  width: 99%;
   margin: 0 auto;
   font-family: Arial ;
   background-color:	white;
 }
-h1 {
-  font-family: Impact;
+.titolo {
+  font-family: 'Courier New', Courier, monospace;
   position: fixed;
-  margin: 20px;
+  margin: 1px;
   height: auto;
   width: auto;
 
   font-family: Courier;
+  font-size: 27px;
   background-color: grey;
   color: black;
 }
-ul {
+.lista {
   position: relative;
   font-size: 27px;
   float: right;
+}
+header {
+
+  height: auto;
+  width: auto;
+  background-color: grey;
+  color: black;
 }
 li {
   display: inline;
