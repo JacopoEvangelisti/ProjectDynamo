@@ -4,7 +4,7 @@ body {
   font-family: Arial ;
   background-color:	white;
 }
-.titolo {
+#titolo {
   position: relative;
   margin: 1px;
   height: auto;
@@ -16,11 +16,14 @@ body {
   color: black;
   float: left;
 }
-.lista {
+#lista {
   position: relative;
+  margin: 1px;
   font-size: 27px;
-  margin-right: 50px;
+  margin-right: 1px;
   float: right;
+  height: auto;
+  width: 700px;
 }
 header {
   height: auto;
@@ -32,7 +35,7 @@ li {
   display: inline;
   padding: 0.5em;
 }
-.colonna1, .colonna2, .colonna3 {
+#colonna1, #colonna2, #colonna3 {
 
     width: 31.3%;
     float: left;
