@@ -26,9 +26,15 @@ header {
   float: left;
 }
 #lista {
-  margin: 1px;
-  font-size: 27px;
+  font-size: 23px;
   float: right;
-  height: auto;
-  width: auto;
+  margin-right: 20px;
+}
+#lista li {
+  font-size: 27px;
+  margin: 0 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+  display: inline;
 }
