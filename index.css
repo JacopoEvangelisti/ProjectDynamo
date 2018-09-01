@@ -6,6 +6,7 @@ body {
   color: white;
 }
 header {
+  font-size: 15px;
   position: fixed;
   flex-shrink: 0;
   z-index: 1000;
