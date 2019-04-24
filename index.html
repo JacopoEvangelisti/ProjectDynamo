@@ -13,6 +13,7 @@
           color: white;
         }
         header {
+          top: 0px;
           position: fixed;
           z-index: 10;
           display: inline-table;
@@ -32,11 +33,10 @@
           margin-right: 10px;
         }
         #lista{
+          position:fixed;
           display: block;
-          position: sticky;
-          float: right;
           width: 400px;
-          margin-right: 20px;
+          right: 20px;
           font-size: 25px;
         }
         #lista li {
@@ -48,13 +48,32 @@
           display: inline-table;
         }
         #lista ul {
+          position:relative;
           padding-left: 0;
           margin-top: 20px;
         }
-        main{
-          position: absolute;
-          color: white;
-          margin-top: 150px;
+        #testo1{
+          font-size: 1svw;
+          margin: 5px;
+          margin-left: 20px;
+        }
+        #napoleone{
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        #titoloNapoleone {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 120px;
+            margin-right: 400px;
+            margin-bottom: 10px;
+        }
+        .titoloCapitoli {
+            text-align: center;
+            font-size: 34px;
+            margin-top: 80px;
+            margin-right: 400px;
+            margin-bottom: 10px;
         }
       </style>
   </head>
@@ -72,8 +91,14 @@
         </ul>
       </div>
     </header>
-    <main>
-<p>test <b>1234</b>####</p>
-    </main>
+
+    <p id="titoloNapoleone"><b>Napoleone</b></p>
+    <img src="test.jpg" id="napoleone" align="right" width="200" height="auto"/>
+    <div id="testo1">
+<p>Ufficiale d'artiglieria e quindi generale durante la rivoluzione francese, divenne famoso come principale generale della Francia rivoluzionaria grazie alle vittorie ottenute nel corso della prima campagna d'Italia. Dopo il colpo di Stato del 18 brumaio (9 novembre 1799) assunse il potere in Francia: fu Primo Console dal novembre di quell'anno al 18 maggio 1804, e Imperatore dei francesi, con il nome di Napoleone I (Napoléon Ier) dal 2 dicembre 1804 al 14 aprile 1814 e nuovamente dal 20 marzo al 22 giugno 1815. Fu anche presidente della Repubblica Italiana dal 1802 al 1805, re d'Italia dal 1805 al 1814, «mediatore» della Confederazione svizzera dal 1803 al 1813 e «protettore» della Confederazione del Reno dal 1806 al 1813.
+
+Grande uomo di guerra, protagonista di oltre venti anni di campagne in Europa, Napoleone è stato considerato il più grande stratega della storia dallo storico militare Basil Liddell Hart,[2] mentre lo storico Evgenij Tàrle non esita a definirlo "l'incomparabile maestro dell'arte della guerra" e "il più grande dei grandi".[3] Grazie al suo sistema di alleanze e a una serie di brillanti vittorie contro le potenze europee, conquistò e governò larga parte dell'Europa continentale, esportando gli ideali rivoluzionari di rinnovamento sociale e arrivando a controllare numerosi Regni tramite persone a lui fedeli (Giuseppe Bonaparte in Spagna, Gioacchino Murat nel Regno di Napoli, Girolamo Bonaparte in Vestfalia, Jean-Baptiste Jules Bernadotte nel Regno di Svezia e Luigi Bonaparte nel Regno d'Olanda).</p>
+</div>
+<p class="titoloCapitoli"><b>Giova</b></p>
   </body>
 </html>
