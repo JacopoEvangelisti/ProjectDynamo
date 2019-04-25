@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>ProjectDynamo</title>
+    <title>Temperatura</title>
       <style type="text/css">
         body {
           width: auto;
@@ -28,7 +28,7 @@
         }
         #titolo {
           float: left;
-          width: 400px;
+          width: 600px;
           margin-left: 20px;
           margin-right: 10px;
         }
@@ -44,7 +44,7 @@
           margin: 1rem;
           margin-top: 10px;
           margin-bottom: 0px;
-          margin-left: 10px;
+          margin-left: 20px;
           display: inline-table;
         }
         #lista ul {
@@ -52,59 +52,106 @@
           padding-left: 0;
           margin-top: 20px;
         }
-        #testo1{
+        .testo1{
           font-size: 1svw;
           margin: 5px;
           margin-left: 20px;
-        }
-        #napoleone{
-          margin-top: 1px;
-          margin-left: 20px;
           margin-right: 20px;
         }
-        #titoloNapoleone {
-            text-align: center;
-            font-size: 30px;
+        #lm35{
+          margin-top: 1px;
+          margin-right: 20px;
+        }
+        #primotitolo {
+          text-align: center;
+            font-size: 20px;
             margin-top: 120px;
-            margin-right: 400px;
-            margin-bottom: 10px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 20px;
         }
         .titoloCapitoli {
             text-align: center;
             font-size: 34px;
-            margin-top: 60px;
-            margin-right: 400px;
-            margin-bottom: 10px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        #maps {
+          float: left;
+          margin-top: 5px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        #tabelle {
+          width: auto;
+        }
+        #textabel {
+          width:300px;
+        }
+        th, td {
+          text-align: center;
+          border: 1px solid grey;
+          padding: 7px 10px 10px 10px;
+        }
+        th {
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
         }
       </style>
   </head>
   <body>
     <header>
       <div id="titolo">
-        <h1>Project Dynamo</h1>
+        <h1>Monitoraggio temperatura</h1>
       </div>
       <div id="lista">
         <ul><b>
-          <li><a id="Project" title="" href="project.html">System</a></li>
-          <li><a id="Project" title="" href="hardware.html">Hardware</a></li>
-          <li><a id="Project" title="" href="software.html">Software</a></li>
+          <li><a  title="" href="hardware.html">Hardware</a></li>
+          <li><a  title="" href="software.html">Software</a></li>
           </b>
         </ul>
       </div>
     </header>
-
-    <p id="titoloNapoleone"><b>Napoleone</b></p>
-    <img src="test.jpg" id="napoleone" align="right" width="200" height="auto"/>
-    <div id="testo1">
-<p>Ufficiale d'artiglieria e quindi generale durante la rivoluzione francese, divenne famoso come principale generale della Francia rivoluzionaria grazie alle vittorie ottenute nel corso della prima campagna d'Italia. Dopo il colpo di Stato del 18 brumaio (9 novembre 1799) assunse il potere in Francia: fu Primo Console dal novembre di quell'anno al 18 maggio 1804, e Imperatore dei francesi, con il nome di Napoleone I (Napoléon Ier) dal 2 dicembre 1804 al 14 aprile 1814 e nuovamente dal 20 marzo al 22 giugno 1815. Fu anche presidente della Repubblica Italiana dal 1802 al 1805, re d'Italia dal 1805 al 1814, «mediatore» della Confederazione svizzera dal 1803 al 1813 e «protettore» della Confederazione del Reno dal 1806 al 1813.
-
-Grande uomo di guerra, protagonista di oltre venti anni di campagne in Europa, Napoleone è stato considerato il più grande stratega della storia dallo storico militare Basil Liddell Hart,[2] mentre lo storico Evgenij Tàrle non esita a definirlo "l'incomparabile maestro dell'arte della guerra" e "il più grande dei grandi".[3] Grazie al suo sistema di alleanze e a una serie di brillanti vittorie contro le potenze europee, conquistò e governò larga parte dell'Europa continentale, esportando gli ideali rivoluzionari di rinnovamento sociale e arrivando a controllare numerosi Regni tramite persone a lui fedeli (Giuseppe Bonaparte in Spagna, Gioacchino Murat nel Regno di Napoli, Girolamo Bonaparte in Vestfalia, Jean-Baptiste Jules Bernadotte nel Regno di Svezia e Luigi Bonaparte nel Regno d'Olanda).</p>
-La sua riforma del sistema giuridico (confluita nel Codice Napoleonico), introdusse chiarezza e semplicità delle norme e pose le basi per la moderna giurisdizione civile.
-
-La disastrosa campagna di Russia (1812), segnò il tramonto del suo dominio sull'Europa. Sconfitto nella battaglia di Lipsia dagli alleati europei nell'ottobre del 1813, Napoleone abdicò il 4 aprile 1814, e fu esiliato nell'isola d'Elba. Nel marzo del 1815, abbandonata furtivamente l'isola, sbarcò a Golfe Juan, vicino ad Antibes e rientrò a Parigi senza incontrare opposizione, riconquistando il potere per il periodo detto dei "cento giorni", finché non venne definitivamente sconfitto dalla settima coalizione nella battaglia di Waterloo, il 18 giugno 1815. Trascorse gli ultimi anni di vita in esilio all'isola di Sant'Elena, sotto il controllo dei britannici. Dopo la sua caduta il congresso di Vienna ristabilì in Europa i vecchi regni pre-napoleonici (Restaurazione).
-
-Fu il primo regnante della dinastia dei Bonaparte. Sposò Giuseppina di Beauharnais nel 1796, e in seconde nozze l'arciduchessa Maria Luisa d'Austria, l'11 marzo 1810, dalla quale ebbe l'unico figlio legittimo, Napoleone Francesco, detto il re di Roma (1811-1832). La sua figura ha ispirato artisti, letterati, musicisti, politici, filosofi e storici, dall'Ottocento ai giorni nostri.
-</div>
+    <p id="primotitolo">Il progetto ha come scopo quello di ottenere dati da un sensore di temperatura e di visualizzare quest’ultimi su tre display a 7 segmenti per fornire una temperatura da 0 a 100°C.</p>
+    <p class="titoloCapitoli"><b>Soluzione tecnica</b></p>
+    <img src="lm35.png" id="lm35" align="right" width="150" height="auto"/>
+    <div class="testo1">
+      Il sensore che abbiamo scelto è lm35, eroga da 0V a 1V. Dato che l’ADC interno ad Arduino accetta valori da 0V a 5V abbiamo deciso di inserire un ampliﬁcatore operazionale per sfruttare a pieno le potenzialità di campionamento del micro controllore.  Il circuito è composto da una serie di tre contatori 7490, ognuno di questi contatori contiene due moduli, un modulo 5 e un modulo 2, se vengono collegati insieme il contatore diventerà un modulo 10, esattamente ciò di cui necessitiamo. Tutti i contatori sono collegati in cascata, questo vuol dire che il QD di ogni contatore viene collegato all’ INPUT1 del contatore successivo e così via, in questo modo applicando il clock al primo contatore il circuito inizierà a funzionare. Le resistenze R1-R2-R3 sono delle resistenze di pull-down, portano a normalmente a GND R3 e R4 e dato che anche R1 e R2 sono collegati a GND il contatore è in fase di COUNT, come richiede la tabella.
+    </div>
+    <div class="tabelle">
+    <table>
+      <tr>
+        <th>R1</th>
+        <th>R2</th>
+        <th>R3</th>
+        <th>R4</th>
+      </tr>
+      <tr>
+        <td>L</td>
+        <td>L</td>
+        <td>L</td>
+        <td>L</td>
+      </tr>
+    </table>
+    <p id="textabel">Tutto cambia invece quando R3-R4 vengono portati a +Vcc, in quanto il contatore entra in fase di RESET </p>
+    <table>
+      <tr>
+        <th>R1</th>
+        <th>R2</th>
+        <th>R3</th>
+        <th>R4</th>
+      </tr>
+      <tr>
+        <td>L</td>
+        <td>L</td>
+        <td>H</td>
+        <td>H</td>
+      </tr>
+    </table>
+    </div>
 <p class="titoloCapitoli"><b>Giova</b></p>
+<iframe id="maps" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Rome%2C%20Italy+(Titolo)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" width="450" height="350" frameborder="0"></iframe>
+
+  <p class="testo1">La sua riforma del sistema giuridico (confluita nel Codice Napoleonico), introdusse chiarezza e semplicità delle norme e pose le basi per la moderna giurisdizione civile. La disastrosa campagna di Russia (1812), segnò il tramonto del suo dominio sull'Europa. Sconfitto nella battaglia di Lipsia dagli alleati europei nell'ottobre del 1813, Napoleone abdicò il 4 aprile 1814, e fu esiliato nell'isola d'Elba. Nel marzo del 1815, abbandonata furtivamente l'isola, sbarcò a Golfe Juan, vicino ad Antibes e rientrò a Parigi senza incontrare opposizione, riconquistando il potere per il periodo detto dei "cento giorni", finché non venne definitivamente sconfitto dalla settima coalizione nella battaglia di Waterloo, il 18 giugno 1815. Trascorse gli ultimi anni di vita in esilio all'isola di Sant'Elena, sotto il controllo dei britannici. Dopo la sua caduta il congresso di Vienna ristabilì in Europa i vecchi regni pre-napoleonici (Restaurazione). Fu il primo regnante della dinastia dei Bonaparte. Sposò Giuseppina di Beauharnais nel 1796, e in seconde nozze l'arciduchessa Maria Luisa d'Austria, l'11 marzo 1810, dalla quale ebbe l'unico figlio legittimo, Napoleone Francesco, detto il re di Roma (1811-1832). La sua figura ha ispirato artisti, letterati, musicisti, politici, filosofi e storici, dall'Ottocento ai giorni nostri.</p>
   </body>
 </html>
