@@ -1,0 +1,122 @@
+#page{
+//da impostare i limiti
+}
+  body {
+    width: auto;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(38,38,38);
+    color: white;
+  }
+  header {
+    top: 0px;
+    position: fixed;
+    display: inline-table;
+    height: 1rem;
+    width: 100%;
+    background-color: rgb(89,89,89);
+    color: white;
+  }
+  a {                                /*cancellare il link*/
+    color: inherit;
+    text-decoration: none;
+  }
+  #titolo {
+    float: left;
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  #lista{
+    position:fixed;
+    display: block;
+    width: 400px;
+    right: 20px;
+    font-size: 25px;
+  }
+  #lista li {
+    float: right;
+    margin: 1rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    display: inline-table;
+  }
+  #lista ul {
+    position:relative;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .testo1{
+    font-size: 1svw;
+    margin: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+  #lm35{
+    margin-top: 1px;
+    margin-right: 20px;
+  }
+  #primotitolo {
+    text-align: center;
+      font-size: 20px;
+      margin-top: 120px;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 20px;
+  }
+  #tabelle{
+    width: 750px;
+    margin: 0px auto;
+    margin-bottom: 150px;
+   }
+  #table1{
+    float: right;
+  }
+  #textabel {
+    float: right;
+    margin: 5px;
+    width:300px;
+    text-align:center;
+  }
+  #table2{
+    float: right;
+    margin: 0px center;
+  }
+  .titoloCapitoli0 {
+      text-align: center;
+      font-size: 34px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .titoloCapitoli {
+      text-align: center;
+      font-size: 34px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+  }
+  #SchemaBlocchi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+  #amp {
+    float: right;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: ;
+  }
+  th, td {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 7px 10px 10px 10px;
+  }
+  th {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
