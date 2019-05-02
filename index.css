@@ -50,14 +50,16 @@
   .testo1{
     font-size: 1svw;
     margin: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 50px;
   }
   #lm35{
-    margin-top: 1px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-right: 30px;
   }
+
   #primotitolo {
     text-align: center;
       font-size: 20px;
@@ -105,11 +107,10 @@
     width: 80%;
   }
   #amp {
-    float: right;
-  
-    margin-top: 50px;
+    margin-top: auto;
     margin-bottom: 50px;
-    width: ;
+    width: 400px;
+    height: auto;
   }
   th, td {
     text-align: center;
